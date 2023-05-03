@@ -1,0 +1,55 @@
+.bestseller {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    &__card,
+    &__img {
+        width: 278px;
+        height: 208px;
+        border: 1px solid #E8E9EA;
+    }
+    &__card{
+        padding: 16px;
+    }
+    &__img{
+        margin-top: 16px;
+    }
+
+    &__title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #2F323A;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #2F323A;
+    }
+
+    &__price {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        color: #171B24;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    &__btn {
+        background: #FCEC41;
+        padding: 16px 85px;
+        text-align: center;
+        display: inline-block;
+    }
+}

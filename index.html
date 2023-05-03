@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаблон</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <a href="#" class="header-top__link">
+                        <img src="./src/images/header-img/Icon.svg" alt=""> Москва
+                    </a>
+                    <div class="d-flex header-top__menu">
+                        <a href="" class="header-top__link">Бренды</a>
+                        <a href="/src/pages/delivery/index.html" class="header-top__link">Доставка</a>
+                        <a href="./src/pages/payback/index.html" class="header-top__link">Возврат</a>
+                        <a href="./src/pages/docs/index.html" class="header-top__link">Документация</a>
+                        <a href="./src/pages/contacts/index.html" class="header-top__link">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <a href="" class="header-middle__logo">
+                        <img src="./src/images/header-img/Group 7.png" alt="" class="header-middle__logo-img">
+                    </a>
+                    <div class="d-flex header-middle__common">
+                        <a href="/src/pages/catalog/index.html" class="header-middle__catalog">
+                            <svg class="header-middle__icon" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 18L14.5 18" stroke="#2F323A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M4.5 12L20.5 12" stroke="#2F323A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M4.5 6L10.5 6" stroke="#2F323A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            Каталог
+                        </a>
+                        <form action="" class="header-middle__form">
+                            <input type="text" class="header-middle__input" placeholder="Поиск">
+                            <button type="submit" class="header-middle__form-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                        stroke="#5D6066" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M21 21L16.65 16.65" stroke="#5D6066" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+
+
+                        </form>
+                        <div class="header-middle__profile">
+                            <a href="" class="header-middle__profile-link" id="open-login-popup">
+                                <img src="./src/images/header-img/Iconprofile.svg" alt=""
+                                    class="header-middle__profile-img">
+                                <div class="header-middle__profile-text">Профиль</div>
+                            </a>
+                            <a href="" class="header-middle__profile-link">
+                                <img src="./src/images/header-img/Iconzakas.svg" alt=""
+                                    class="header-middle__profile-img">
+                                <div class="header-middle__profile-text">Заказы</div>
+                            </a>
+                            <a href="" class="header-middle__profile-link">
+                                <img src="./src/images/header-img/Iconkarzina.svg" alt=""
+                                    class="header-middle__profile-img">
+                                <div class="header-middle__profile-text">Корзина</div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="d-flex">
+                    <nav class="header-bottom__nav">
+                        <a href="" class="header-bottom__link">Акции</a>
+                        <a href="" class="header-bottom__link">Строительные материалы</a>
+                        <a href="" class="header-bottom__link">Керамическая плитка</a>
+                        <a href="" class="header-bottom__link">Краски</a>
+                        <a href="" class="header-bottom__link">Сантехника</a>
+                        <a href="" class="header-bottom__link">Напольные покрытия</a>
+                        <a href="" class="header-bottom__link">Инструменты</a>
+                        <a href="" class="header-bottom__link">Обои</a>
+                        <a href="" class="header-bottom__link">Окна</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="home">
+            <div class="owl-carousel owl-theme owl-loaded" id="home-slider">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item">
+                            <div class="home-slide">
+                                <h2 class="home-slide__title">Специальные <br> предложения</h2>
+                                <h3 class="home-slide__text"> на строительные материалы <br> и товары для ремонта</h3>
+                                <a href="" class="home-slide__moreBtn">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="home-slide">
+                                <h1 class="home-slide__title">Распродажа <br> инструментов</h1>
+                                <h3 class="home-slide__text">«СтройкаСтор» стремится сделать условия покупки <br>
+                                    максимально выгодными для каждого
+                                    покупателя, поэтому <br> на сайте регулярно появляются товары со скидкой</h3>
+                                <a href="" class="home-slide__moreBtn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-nav">
+                    <div class="home-slide__prev">
+                        <img src="./src/images/main-img/Iconleft.png" alt="">
+                    </div>
+                    <div class="home-slide__next">
+                        <img src="./src/images/main-img/Iconright.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="discount">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <h2 class="discount__title">Акции</h2>
+                    <a href="" class="discount__Btn">Все акции ></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="discount__mainCard">
+                        <div class="discount__object">
+                            <img src="./src/images/discount-img/Imagebukket.png" alt="" class="object__img">
+                            <div class="discount__text-block">−25%</div>
+                        </div>
+                        <div class="discount__info">
+                            <p class="discount__info-text">Рубероид РКП-350 ТУ, размер <br> материала 1 х 10 м (10м2, 1
+                                рулон)</p>
+                            <h2 class="discount__info-price">449 ₽
+                                <div class="discount__info-lined">499₽</div>
+                            </h2>
+                            <a href="" class="discount__info-Btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="discount__mainCard">
+                        <div class="discount__object">
+                            <img src="./src/images/discount-img/Image-pena.png" alt="" class="object__img">
+                            <div class="discount__text-block">−25%</div>
+                        </div>
+                        <div class="discount__info">
+                            <p class="discount__info-text">Пена монтажная ТЕХНОНИКОЛЬ MASTER 65 профессиональная
+                                всесезонная</p>
+                            <h2 class="discount__info-price">495 ₽
+                                <div class="discount__info-lined">660₽</div>
+                            </h2>
+                            <a href="" class="discount__info-Btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="discount__mainCard">
+                        <div class="discount__object">
+                            <img src="./src/images/discount-img/Imageroulette.png" alt="" class="object__img">
+                            <div class="discount__text-block">−25%</div>
+                        </div>
+                        <div class="discount__info">
+                            <p class="discount__info-text">Сетка "Рабица" яч. 50х50/1,5х10 <br> м-ОЦ</p>
+                            <h2 class="discount__info-price">1499 ₽
+                                <div class="discount__info-lined">1890₽</div>
+                            </h2>
+                            <a href="" class="discount__info-Btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="discount__mainCard">
+                        <div class="discount__object">
+                            <img src="./src/images/discount-img/Image-krysha.png" alt="" class="object__img">
+                            <div class="discount__text-block">−25%</div>
+                        </div>
+                        <div class="discount__info">
+                            <p class="discount__info-text">Металлочерепица, цвет коричневый, <br> 1.18 х 1.15 м</p>
+                            <h2 class="discount__info-price">769 ₽
+                                <div class="discount__info-lined">999₽</div>
+                            </h2>
+                            <a href="" class="discount__info-Btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="category">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <h2 class="category__name">Популярные категории</h2>
+                    <a href="" class="category__link">Все категории ></a>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Душевые</div>
+                            <img src="./src/images/category-img/image 56-dush.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Пиломатериал</div>
+                            <img src="./src/images/category-img/image 48drevo.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Линолеум</div>
+                            <img src="./src/images/category-img/image 49linoleum.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Обои</div>
+                            <img src="./src/images/category-img/image 53oboi.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Инструменты</div>
+                            <img src="./src/images/category-img/image 54instrument.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Товары для дачи</div>
+                            <img src="./src/images/category-img/image 55dacha.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Окна</div>
+                            <img src="./src/images/category-img/image 86okna.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Двери</div>
+                            <img src="./src/images/category-img/image 87dveri.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Электроприборы</div>
+                            <img src="./src/images/category-img/image 89eloctro.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Краски</div>
+                            <img src="./src/images/category-img/pngwing 1craski.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Электротовары</div>
+                            <img src="./src/images/category-img/image 89eloctro.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="category__block">
+                            <div class="category__title">Интерьер</div>
+                            <img src="./src/images/category-img/image 90interier.png" alt="" class="category__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bestseller">
+            <div class="container">
+                <div class="bestseller__title">Популярные товары</div>
+                <div class="row gaped">
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Imagedoska.png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Керамогранит Yasmin 598х185 коричневый C-YA4M112D</div>
+                            <h2 class="bestseller__price">899 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Imagecement.png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Затирка для узких швов Ceresit СЕ 33, цвет белый, 2 кг</div>
+                            <h2 class="bestseller__price">275 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (4).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Грунтовка Старатели 10л глубокого проникновения</div>
+                            <h2 class="bestseller__price">839 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Imagecarton.png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Гипсокартон Волма, 2500 х 1200 х 12,5 мм</div>
+                            <h2 class="bestseller__price">335 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (5).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Профиль 0,55мм для гипсокартона, шелочный аппаратный</div>
+                            <h2 class="bestseller__price">195 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (6).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Рулетка 3м монозолоченная с двойным покрытием</div>
+                            <h2 class="bestseller__price">100 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (7).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Кнауф Мп 75 штукатурка гипсовая МН 30кг
+                            </div>
+                            <h2 class="bestseller__price">380 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (8).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Уголок серый канализационный Д110 ГР90
+                            </div>
+                            <h2 class="bestseller__price">335 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (9).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Knauf Ротбанд, <br> 30 кг</div>
+                            <h2 class="bestseller__price">508 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (10).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Саморез по металлу 3,5х25 мм для гипсокартона
+                            </div>
+                            <h2 class="bestseller__price">340 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (11).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Шпатлевка универсальная Danogips SuperFinish 17 л
+                            </div>
+                            <h2 class="bestseller__price">2 555 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./src/images/bestseller-img/Image (12).png" alt="" class="bestseller__img">
+                        <div class="bestseller__card">
+                            <div class="bestseller__text">Клейкая лента металлизированная Изоспан FL 5х5000 см</div>
+                            <h2 class="bestseller__price">226 ₽</h2>
+                            <a href="" class="bestseller__btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="brand">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <h2 class="brand__title">Популярные бренды</h2>
+                    <a href="" class="brand__link">Все бренды ></a>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/Frame 4184.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 67.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 576.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 585.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 593.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 604.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 611.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 66.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 62.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 63.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 64.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="brand__img" src="./src/images/brends-img/image 65.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <h3 class="feedback__title">Отзывы</h3>
+                <div class="owl-carousel owl-theme owl-loaded" id="feedback-slider">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <div class="feedback__card">
+                                    <div class="feedback__card-top">
+                                        <div class="feedback__card-user">
+                                            <img src="./src/images/feedback-img/Avatarsavatar.png" alt=""
+                                                class="feedback__card-avatar">
+                                            <h3 class="feedback__card-username">Петр</h3>
+                                        </div>
+                                        <img src="./src/images/feedback-img/image 84 (Traced)kav.png" alt=""
+                                            class="feedback__trace">
+                                    </div>
+                                    <p class="feedback__card-text">
+                                        Сегодня 10.03.2022 года, брал перфоратор в аренду в магазине по улице Дорожная.
+                                        Продавец всё хорошо объяснил, показал и плюс остался бонус в ящике перфоратора
+                                        это бур нужного мне диаметра, оставленным прежним арендатором. В общем повесил
+                                        телевизор, где надо было просверлить 4 отверстия, всего за 100 ₽
+                                    </p>
+                                    <div class="feedback__card-date">
+                                        21 марта 2022 г.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="feedback__card">
+                                    <div class="feedback__card-top">
+                                        <div class="feedback__card-user">
+                                            <img src="./src/images/feedback-img/Avatars.png" alt=""
+                                                class="feedback__card-avatar">
+                                            <h3 class="feedback__card-username">Анна</h3>
+                                        </div>
+                                        <img src="./src/images/feedback-img/image 84 (Traced)kav.png" alt=""
+                                            class="feedback__trace">
+                                    </div>
+                                    <p class="feedback__card-text">
+                                        Живу в п.Володарский МО, очень были рады открытию магазина СтройкаСтор. Хорошие
+                                        сотрудники, но особенно хочется отметить работу Алексея за его помощь в решении
+                                        проблем, очень квалифицированные рекомендации по подбору строительных материалов
+                                        для ремонта. Хороший ассортимент
+
+                                    </p>
+                                    <div class="feedback__card-date">
+                                        18 марта 2022 г.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="feedback__card">
+                                    <div class="feedback__card-top">
+                                        <div class="feedback__card-user">
+                                            <img src="./src/images/feedback-img/Avatars (2).png" alt=""
+                                                class="feedback__card-avatar">
+                                            <h3 class="feedback__card-username">Виктор</h3>
+                                        </div>
+                                        <img src="./src/images/feedback-img/image 84 (Traced)kav.png" alt=""
+                                            class="feedback__trace">
+                                    </div>
+                                    <p class="feedback__card-text">
+                                        Заказывал в данном магазине строй материалы. Привезли их вовремя и в прекрасном
+                                        состоянии, претензий к доставке, персоналу и прочему меня нет. Строй материалы
+                                        мне понравились, ремонт с ними я сделал отличный. Магазин мне безумно
+                                        понравился, обязательно обращусь сюда снова, большое спасибо
+                                    </p>
+                                    <div class="feedback__card-date">
+                                        6 ноября 2021 г.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="feedback__card">
+                                    <div class="feedback__card-top">
+                                        <div class="feedback__card-user">
+                                            <img src="./src/images/feedback-img/Avatars (1).png" alt=""
+                                                class="feedback__card-avatar">
+                                            <h3 class="feedback__card-username">Дмитрий</h3>
+                                        </div>
+                                        <img src="./src/images/feedback-img/image 84 (Traced)kav.png" alt=""
+                                            class="feedback__trace">
+                                    </div>
+                                    <p class="feedback__card-text">
+                                        Данный магазин целиком и полностью оправдал все мои ожидания. Тут мне удалось
+                                        найти апсалютно все нужные мне материалы для отделочных работ и в нужном
+                                        количестве. С доставкой тоже получилось всё удобно. привезли всё в заказанном
+                                        количестве и в отличном состоянии.
+                                    </p>
+                                    <div class="feedback__card-date">
+                                        5 ноября 2021 г.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-nav">
+                        <div class="feedback__prev">
+                            <img src="./src/images/main-img/Iconleft.png" alt="">
+                        </div>
+                        <div class="feedback__next">
+                            <img src="./src/images/main-img/Iconright.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__menu">
+                <h2 class="about__menu-title">О компании</h2>
+                <br>
+                <div class="about__menu-text">В СтройкаСтор вы всегда можете купить все необходимые товары для ремонта
+                    дома и дачи. Хотите сделать ремонт в квартире? Строите загородный дом? Используйте строительные и
+                    отделочные материалы из нашего каталога.</div>
+                <br>
+                <div class="about__menu-text">
+                    Быстрая доставка строительных товаров по низким ценам сделает ваши покупки более приятными. Ремонт
+                    может стоить дешево, если делать его с нами. Для вас всегда в наличии более 30 000 товаров для
+                    строительства по низким ценам каждый день.
+                    СтройкаСтор — это широкий ассортимент товаров для дома и ремонта недорого; Возможность заказать
+                    строительные и отделочные материалы для дома и дачи.
+                </div>
+            </div>
+            <img src="./src/images/discount-img/image 85about.png" alt="" class="about__menu-img">
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="row">
+            <div class="col-3">
+                <div class="footer__block">
+                    <img src="./src/images/header-img/Logo.png" alt="" class="footer__img">
+                    <a href="" class="footer__link-r">
+                        <img src="./src/images/Iconmaillogo.png" alt="" class="footer__logo">
+                        info@stroykastore.ru</a>
+                    <a href="" class="footer__link-r">
+                        <img src="./src/images/Iconplacelogo.png" alt="" class="footer__logo">
+                        Москва, ул. Камушкина 10</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="footer__block">
+                    <a href="" class="footer__link">Личный кабинет</a>
+                    <a href="" class="footer__link">Заказы</a>
+                    <a href="" class="footer__link">Избранное</a>
+                    <a href="" class="footer__link">Корзина</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="footer__block">
+                    <a href="" class="footer__link">Каталог</a>
+                    <a href="" class="footer__link">Акции</a>
+                    <a href="" class="footer__link">Бренды</a>
+                    <a href="./src/pages/contacts/index.html" class="footer__link">Контакты</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="footer__block">
+                    <a href="" class="footer__link">Стать продавцом</a>
+                    <a href="/src/pages/payback/index.html" class="footer__link">Возврат</a>
+                    <a href="./src/pages/docs/index.html" class="footer__link">Документация</a>
+                    <a href="./src/pages/delivery/index.html" class="footer__link">Доставка</a>
+                </div>
+            </div>
+            <div class="footer__line">
+                <div class="d-flex justify-content-between">
+                    <div class="footer__line-copyright">
+                        © СтройкаСтор
+                    </div>
+                    <img src="./src/images/Frame 102.png" alt="" class="footer__line-img">
+                    <div class="footer__line-copyright">
+                        Cделано в KRUGLOV STUDIO
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="overlay">
+        <div class="login-popup">
+            <div class="login-popup-menu">
+                <h2 class="login-popup-title">Вход</h2>
+                <div class="login-popup-dm">E-mail</div>
+                <input class="login-popup-form" action="" placeholder="youmail@mail.com">
+                <div class="login-popup-dm">Пароль</div>
+                <input class="login-popup-form" action="" placeholder="****************" type="password" required
+                    maxlength="16" minlength="8">
+                <a href="" class="login-popup-feedback">Забыли пароль?</a>
+                <button class="login-popup-login">Войти</button>
+                <a class="login-popup-reg" id="open-reg-popup">Создать учетную запись</a>
+            </div>
+        </div>
+        <div class="reg-popup">
+            <h2 class="reg-popup__title">Регистрация</h2>
+            <div class="reg-popup__block">
+                <div class="reg-popup__box">
+                    <div class="reg-popup__name">
+                        Имя </div>
+                    <input placeholder="Богдан" action="" class="reg-popup__form">
+                </div>
+                <div class="reg-popup__box">
+                    <div class="reg-popup__name">
+                        E-mail
+                    </div>
+                    <input placeholder="youmail@mail.com" action="" class="reg-popup__form">
+                </div>
+            </div>
+            <div class="reg-popup__block">
+                <div class="reg-popup__box">
+                    <div class="reg-popup__name">
+                        Пароль
+                    </div>
+                    <input maxlength="16" minlength="8" placeholder="****************" action="" class="reg-popup__form"
+                        type="password" required>
+                </div>
+                <div class="reg-popup__box">
+                    <div class="reg-popup__name">
+                        Потвердите пароль
+                    </div>
+                    <input maxlength="16" minlength="8" placeholder="****************" action=""
+                        class="reg-popup__form">
+                </div>
+            </div>
+            <a href="" class="reg-popup__btn">Зарегистрироваться</a>
+        </div>
+        <div class="city-popup">
+        </div>
+        <div class="error-popup">
+            <div class="error-popup__block">
+                <h2 class="error-popup__title">Ошибка</h2>
+                <div class="error-popup__text">
+                    Проблема с оплатой. Обратитесь <br> за помощью к менеджеру
+                </div>
+                <a href="#" class="error-popup__btn">
+                    Вернуться в магазин
+                </a>
+            </div>
+        </div>
+        <div class="card-alert"></div>
+        <div class="order-alert">
+            <div class="error-popup__block">
+                <h2 class="error-popup__title">Спасибо за заказ!</h2>
+                <div class="error-popup__text">
+                    Скоро с вами свяжется менеджер!
+                </div>
+                <a href="#" class="error-popup__btn">
+                    Вернуться в магазин
+                </a>
+            </div>
+        </div>
+
+        <div class="popup-close-btn"></div>
+    </div>
+    <script src="./src/lib/jquerry/jquerry.js"></script>
+    <script src="./src/lib/owl/owl.carousel.min.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

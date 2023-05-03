@@ -1,0 +1,38 @@
+.about {
+    position: relative;
+    padding: 40px;
+
+    &__menu {
+        width: 670px;
+        height: 216px;
+        position: absolute;
+        left: 230px;
+        top: 100px;
+
+        &-title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            color: #2F323A;
+        }
+
+        &-text {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #2F323A;
+        }
+
+        &-img {
+            max-width: 100%;
+        }
+    }
+}

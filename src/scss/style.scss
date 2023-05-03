@@ -1,0 +1,69 @@
+@import '../fonts/monrope/manrope.css';
+@import '../fonts/inter/inter.css';
+@import '../lib/btrsp/bootstrap-grid.min.css';
+@import '../lib/owl/owl.carousel.min.css';
+@import '../lib/owl/owl.theme.default.min.css';
+@import '../scss/discount';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.brand {
+    &__img {
+        margin-top: 16px;
+        border: 1px solid #E8E9EA;
+        margin-right: 16px;
+    }
+
+    &__title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #2F323A;
+
+    }
+
+    &__link {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 136%;
+        color: #171B24;
+        padding: 12px 16px 12px 24px;
+        border: 1px solid #D1D1D3;
+    }
+}
+
+@import './pages-style/catalog';
+@import './pages-style/payback';
+@import './about';
+@import './bestseller';
+@import './header';
+@import './home';
+@import './footer';
+@import './feedback';
+@import './popup';
+@import './category';
+@import './pages-style/contacts';
+@import './pages-style/docs';
+@import './pages-style/delivery' ;

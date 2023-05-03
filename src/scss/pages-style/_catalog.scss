@@ -1,0 +1,29 @@
+.catalog {
+    &-tab {
+        &__content {
+            display: none;
+
+            &__active {
+                
+            }
+        }
+    }
+
+    &-card {
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        &__items {
+            padding-left: 20px;
+            transition: .6s;
+
+            &:hover {
+                background: url(https://w7.pngwing.com/pngs/73/172/png-transparent-arrow-computer-icons-right-arrow-cdr-angle-hand.png) left center/15px 10px no-repeat;
+                margin-left: 20px;
+            }
+        }
+    }
+}

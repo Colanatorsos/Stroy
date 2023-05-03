@@ -1,0 +1,62 @@
+.contacts {
+    margin: 0px 80px;
+
+    &__title {
+        margin-top: 40px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        display: flex;
+        align-items: center;
+        color: #171B24;
+        margin-bottom: 40px;
+    }
+
+    &__bread {
+        margin-top: 40px;
+
+        &-link {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #454950;
+        }
+    }
+}
+
+.ooo {
+
+    &__title {
+        margin-bottom: 30px;
+        margin-top: 80px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #2F323A;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: left;
+        gap: 36px;
+        margin-bottom: 80px;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        align-items: center;
+        color: #2F323A;
+    }
+}

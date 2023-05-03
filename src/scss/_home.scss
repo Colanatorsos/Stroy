@@ -1,0 +1,75 @@
+.home {
+    padding: 40px 40px 0px;
+
+    &-slide {
+        padding: 40px 0 100px;
+        padding-left: 100px;
+
+        &__title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 120%;
+            display: flex;
+            align-items: center;
+            color: #171B24;
+
+        }
+
+        &__text {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            display: flex;
+            align-items: center;
+            color: #454950;
+            margin-top: 20px;
+            margin-bottom: 100px;
+        }
+
+        &__moreBtn {
+            padding: 12px 24px;
+            background: #FCEC41;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            color: #171B24;
+
+        }
+    }
+
+    .owl-nav {
+        position: absolute;
+        bottom: 40px;
+        right: 100px;
+        display: flex;
+        gap: 12px;
+
+        .home-slide__prev,
+        .home-slide__next {
+            background-color: white;
+            padding: 14px;
+            border: 1px solid #D1D1D3;
+            cursor: pointer;
+        }
+    }
+
+    .owl-item {
+        &:nth-child(1) {
+            .home-slide {
+                background: url('../images/main-img/image\ 52.png') center/cover;
+            }
+        }
+
+        &:nth-child(2) {
+            .home-slide {
+                background: url('../images/main-img/image\ 51.png') center/cover;
+            }
+        }
+    }
+}

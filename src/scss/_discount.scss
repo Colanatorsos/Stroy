@@ -1,0 +1,108 @@
+.discount {
+    padding: 80px 130px;
+
+    &__mainCard {
+        display: flex;
+        flex-wrap: nowrap;
+        border: 1px solid #E8E9EA;
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        margin-bottom: 16px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #2F323A;
+    }
+
+    &__Btn {
+        margin-bottom: 16px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 136%;
+        color: #171B24;
+        border: 1px solid #D1D1D3;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 16px 12px 24px;
+        gap: 8px;
+    }
+
+    &__object {
+        width: 278px;
+        height: 208px;
+        position: relative;
+        margin-bottom: 16px;
+    }
+
+    &__text-block {
+        position: absolute;
+        width: 55px;
+        height: 30px;
+        left: 16px;
+        top: 16px;
+        align-items: center;
+        padding: 4px 8px;
+        background: #FFFFFF;
+        border: 2px solid #FBE303;
+    }
+
+    &__info {
+        padding: 16px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-left: 1px solid #E8E9EA;
+
+        &-text {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #2F323A;
+        }
+
+        &-price {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            color: #171B24;
+            position: relative;
+        }
+
+        &-lined {
+            margin-left: 58px;
+            top: 3px;
+            position: absolute;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #8B8D92;
+            text-decoration: line-through;
+        }
+
+        &-Btn {
+            align-items: center;
+            padding: 12px 24px;
+            gap: 8px;
+            background: #FCEC41;
+            width: 200px;
+            height: 48px;
+            text-align: center;
+        }
+    }
+}
